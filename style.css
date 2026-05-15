@@ -1,0 +1,31 @@
+body { font-family: 'Avenir', 'Nunito', sans-serif; line-height: 1.6; max-width: 600px; margin: 40px auto; padding: 20px; color: #ffffff; background-color: #2e2e2e}
+header { text-align: center; border-bottom: 1px solid #a2a2a2; padding-bottom: 20px; font-weight: 900;}
+ul { list-style: none; padding: 0;}
+li { margin-bottom: 10px; font-size: normal;}
+a { color: #a2a2a2; text-decoration: none; font-size: normal;}
+.remark {font-size: small; color: #ffffff;}
+.subtitle {font-size: small;  text-transform: uppercase; color: #ffffff; letter-spacing: 15%;}
+.language-switch {text-align: center;}
+.language-switch a {color: #a2a2a2}
+.language-switch a.active {color: #ffffff;}
+.language-switch a:hover {text-decoration: underline;}
+.language-switch a.active {color: #ffffff; pointer-events: none;}
+.active {color: #ffffff;}
+a:hover {text-decoration: underline; color: #d5d5d5;}
+.logo {width: 23px; height: 23px; object-fit: cover;}
+.sub {border-radius: 0px; margin-bottom: 0px; margin-top: 15px; margin-left: 30px;}
+.block_ongoing {background-color: #2a2a2a; padding: 15px; border-radius: 8px; margin-bottom: 15px; border-left: 3px solid #e31e24;}
+.block_ongoing:hover {background-color: #3a3a3a;}
+.block_ongoing span {font-size: 0.9em; /* color: #ff575d; */}
+.block {background-color: #2a2a2a; padding: 15px; border-radius: 8px; margin-bottom: 15px; border-left: 3px solid #e3801e;}
+.block:hover {background-color: #3a3a3a;}
+.block span {font-size: 0.9em; /* color: #888; */}
+.ongoing {color: #e31e24;}
+blockquote {background-color: #2a2a2a; padding: 15px; border-radius: 10px; color: #ffffff;}
+.autor {text-align: right; display: block;}
+.grid_container {display: grid; gap: 15px; margin-left: 15px; margin-right: 15px; grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));}
+.card  {border: 1px solid #a2a2a2; border-radius: 8px; display: flex; flex-direction: column;}
+.card-content {padding: 12px;}
+.description {font-size: 0.8em; hyphens: auto;}
+.part {text-align: justify; hyphens: auto; text-align-last: center;}
+.version {font-size: x-small; color: #4a4a4a;}
